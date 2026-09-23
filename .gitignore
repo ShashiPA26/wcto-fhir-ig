@@ -1,7 +1,11 @@
+# FHIR IG build outputs and local tooling
 .DS_Store
 Thumbs.db
+/.idea
 /fsh-generated
-/input-cache
+/input-cache*
 /output
 /temp
 /template
+/out
+/gofsh

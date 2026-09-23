@@ -1,0 +1,67 @@
+name: Build FHIR Implementation Guide
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-ig:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+          cache: maven
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Install SUSHI
+        run: npm install --global fsh-sushi
+
+      - name: Download FHIR IG Publisher
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p input-cache
+          curl --fail --location --retry 3 \
+            https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar \
+            --output input-cache/publisher.jar
+
+      - name: Build implementation guide
+        run: ./_build.sh build
+
+      - name: Upload generated implementation guide
+        if: always() && hashFiles('output/**') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: wcto-fhir-ig-${{ github.sha }}
+          path: output/
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Upload build log
+        if: always() && hashFiles('output/build.log') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: wcto-fhir-ig-build-log-${{ github.sha }}
+          path: output/build.log
+          if-no-files-found: ignore
+          retention-days: 14
