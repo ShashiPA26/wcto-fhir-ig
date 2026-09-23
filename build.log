@@ -1,0 +1,154 @@
+Checking for publisher.jar in C:\Users\spatel\Documents\FHIR\wcto\WCTO\input-cache\
+Checking for publisher.jar in ..\
+Checking for publisher.jar in C:\Users\spatel\.fhir\tools\publisher
+Found publisher.jar in FHIR publisher home
+You selected: 2
+jar_location is: C:\Users\spatel\.fhir\tools\publisher\publisher.jar
+IG Publisher FOUND, Publishing...
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF-8
+FHIR IG Publisher Version 2.3.4 (Git# 7ae92f79415a). Built 2026-09-04T06:21:07.840Z (13 days old)   
+Detected Java version: 21.0.10 from C:\Program Files\Java\jdk-21.0.10 on Windows 11/amd64 (64bit). 3014MB available
+dir = C:\Users\spatel\Documents\FHIR\wcto\WCTO, path = C:\Users\spatel\bin;C:\Users\spatel\AppData\Local\Programs\Git\mingw64\bin;C:\Users\spatel\AppData\Local\Programs\Git\usr\local\bin;C:\Users\spatel\AppData\Local\Programs\Git\usr\bin;C:\Users\spatel\AppData\Local\Programs\Git\usr\bin;C:\Users\spatel\AppData\Local\Programs\Git\mingw64\bin;C:\Users\spatel\AppData\Local\Programs\Git\usr\bin;C:\Users\spatel\bin;C:\Users\spatel\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;C:\Users\spatel\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files\Amazon\AWSCLIV2;C:\Program Files\Amazon\AWSSAMCLI\bin;C:\Program Files\nodejs;C:\Program Files (x86)\Terraform;C:\Ruby34-x64\bin;C:\Users\spatel\AppData\Local\Microsoft\WindowsApps;C:\Users\spatel\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\spatel\AppData\Roaming\npm;C:\Users\spatel\AppData\Local\Microsoft\WinGet\Packages\jqlang.jq_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\spatel\AppData\Local\Programs\Kiro\bin;C:\Users\spatel\AppData\Local\Programs\Git\cmd;C:\Users\spatel\AppData\Local\Programs\Git\usr\bin\vendor_perl;C:\Users\spatel\AppData\Local\Programs\Git\usr\bin\core_perl
+Parameters: -ig .                                                                                   
+Character encoding = UTF-8 / UTF-8                                                                  
+Start Clock @ Friday, 18 September 2026, 3:38:47 pm New Zealand Standard Time (2026-09-18T15:38:47+12:00)
+                                                                                                    
+Build FHIR IG from C:\Users\spatel\Documents\FHIR\wcto\WCTO\.                                        (00:00.147 / 00:00.148, 26Mb)
+No FHIR settings file at C:\Users\spatel\.fhir\fhir-settings.json; using defaults (no API keys or npm path) (00:00.003 / 00:00.151, 26Mb)
+Package Cache: C:\Users\spatel\.fhir\packages                                                        (00:00.006 / 00:00.158, 26Mb)
+Run Sushi on C:\Users\spatel\Documents\FHIR\wcto\WCTO                                                (00:00.019 / 00:00.177, 26Mb)
+Sushi: info  Running SUSHI v3.20.1 (implements FHIR Shorthand specification v3.0.0)                  (00:03.754 / 00:03.932, 27Mb)
+Sushi: info  Arguments:                                                                              (00:00.001 / 00:03.933, 27Mb)
+Sushi: info    --out C:\Users\spatel\Documents\FHIR\wcto\WCTO                                        (00:00.000 / 00:03.934, 27Mb)
+Sushi: info    C:\Users\spatel\Documents\FHIR\wcto\WCTO                                              (00:00.000 / 00:03.935, 27Mb)
+Sushi: info  Using configuration file: C:\Users\spatel\Documents\FHIR\wcto\WCTO\sushi-config.yaml    (00:03.211 / 00:07.146, 27Mb)
+Sushi: info  Importing FSH text...                                                                   (00:00.101 / 00:07.248, 27Mb)
+Sushi: info  Preprocessed 0 documents with 0 aliases.                                                (00:00.001 / 00:07.249, 27Mb)
+Sushi: info  Imported 0 definitions and 0 instances.                                                 (00:00.000 / 00:07.250, 27Mb)
+Sushi: info  Loaded virtual package sushi-r5forR4#1.0.0 with 7 resources                             (00:00.183 / 00:07.433, 27Mb)
+Sushi: info  Resolved hl7.fhir.uv.tools.r4#latest to concrete version 1.2.0                          (00:01.287 / 00:08.721, 27Mb)
+Sushi: info  Loaded hl7.fhir.uv.tools.r4#1.2.0 with 123 resources                                    (00:00.208 / 00:08.930, 27Mb)
+Sushi: info  Resolved hl7.terminology.r4#latest to concrete version 7.3.0                            (00:00.299 / 00:09.229, 27Mb)
+Sushi: info  Loaded hl7.terminology.r4#7.3.0 with 4176 resources                                     (00:06.282 / 00:15.511, 27Mb)
+Sushi: info  Loaded hl7.fhir.r4.core#4.0.1 with 4581 resources                                       (00:03.998 / 00:19.509, 27Mb)
+Sushi: info  Resolved hl7.fhir.uv.extensions.r4#latest to concrete version 5.3.0                     (00:00.342 / 00:19.852, 27Mb)
+Sushi: info  Loaded hl7.fhir.uv.extensions.r4#5.3.0 with 885 resources                               (00:00.894 / 00:20.747, 27Mb)
+Sushi: info  Loaded virtual package sushi-local#LOCAL with 0 resources                               (00:00.012 / 00:20.759, 27Mb)
+Sushi: info  Converting FSH to FHIR resources...                                                     (00:00.021 / 00:20.781, 27Mb)
+Sushi: info  Exporting FHIR resources as JSON...                                                     (00:00.005 / 00:20.786, 27Mb)
+Sushi: info  Exported 0 FHIR resources as JSON.                                                      (00:00.001 / 00:20.787, 27Mb)
+Sushi: info  Assembling Implementation Guide sources...                                              (00:00.017 / 00:20.805, 27Mb)
+Sushi: info  Generated ImplementationGuide-wcto.tewhatuora.govt.nz.json                              (00:00.070 / 00:20.876, 27Mb)
+Sushi: info  Assembled Implementation Guide sources; ready for IG Publisher.                         (00:00.000 / 00:20.876, 27Mb)
+Sushi: ========================= SUSHI RESULTS ===========================                           (00:00.028 / 00:20.905, 27Mb)
+Sushi: |  -------------------------------------------------------------  |                           (00:00.001 / 00:20.906, 27Mb)
+Sushi: | |    Profiles   |  Extensions  |   Logicals   |   Resources   | |                           (00:00.000 / 00:20.907, 27Mb)
+Sushi: | |-------------------------------------------------------------| |                           (00:00.001 / 00:20.908, 27Mb)
+Sushi: | |       0       |      0       |      0       |       0       | |                           (00:00.000 / 00:20.909, 27Mb)
+Sushi: |  -------------------------------------------------------------  |                           (00:00.000 / 00:20.909, 27Mb)
+Sushi: |  -------------------------------------------------------------  |                           (00:00.000 / 00:20.910, 27Mb)
+Sushi: | |      ValueSets     |    CodeSystems    |     Instances      | |                           (00:00.000 / 00:20.910, 27Mb)
+Sushi: | |-------------------------------------------------------------| |                           (00:00.000 / 00:20.911, 27Mb)
+Sushi: | |         0          |         0         |         0          | |                           (00:00.000 / 00:20.911, 27Mb)
+Sushi: |  -------------------------------------------------------------  |                           (00:00.000 / 00:20.912, 27Mb)
+Sushi: |                                                                 |                           (00:00.000 / 00:20.913, 27Mb)
+Sushi: ===================================================================                           (00:00.000 / 00:20.913, 27Mb)
+Sushi: | It doesn't get any betta than this!    0 Errors      0 Warnings |                           (00:00.000 / 00:20.914, 27Mb)
+Sushi: ===================================================================                           (00:00.000 / 00:20.915, 27Mb)
+Root directory: C:\Users\spatel\Documents\FHIR\wcto\WCTO                                             (00:00.159 / 00:21.074, 27Mb)
+Unable to load IG as an r5 IG - try R4 (property code is a class com.google.gson.JsonPrimitive looking for an object) (00:00.807 / 00:21.882, 59Mb)
+Load Template from fhir2.base.template#current                                                       (00:01.814 / 00:23.696, 35Mb)
+Scanning directory: C:\Users\spatel\Documents\FHIR\wcto\WCTO\template
+======================================================================
+Terminology Cache is at C:\Users\spatel\Documents\FHIR\wcto\WCTO\input-cache\txcache. 6 files in cache (00:12.906 / 00:36.603, 127Mb)
+Core Package hl7.fhir.r4.core#4.0.1                                                                  (00:00.001 / 00:36.604, 127Mb)
+Running Terminology Log: C:\Users\spatel\AppData\Local\Temp\ohfu-fhir-ig-6592099805504181529.html
+Connect to Terminology Server at https://tx.fhir.org                                                 (00:06.629 / 00:43.233, 210Mb)
+[39mLoad Package hl7.fhir.pubpack#0.2.5
+[0;39m[39mLoad Package hl7.fhir.xver-extensions#0.1.0
+[0;39m[39mLoad Package hl7.terminology.r4#7.3.0
+[0;39m[39mLoad Package hl7.fhir.uv.extensions.r4#5.3.0
+[0;39m[39mLoad Package hl7.fhir.uv.tools.r4#1.1.2
+[0;39mLoad R5 Specials
+Initialization complete                                                                              (00:10.498 / 00:53.732, 272Mb)
+Load IG                                                                                              (00:00.001 / 00:53.733, 272Mb)
+Load Translations                                                                                    (00:00.101 / 00:53.835, 272Mb)
+Load Content                                                                                         (00:00.000 / 00:53.836, 272Mb)
+Using en as the default narrative language. (Implementation Guide param i18n-default-lang)           (00:00.040 / 00:53.876, 275Mb)
+Process Loaded Resources                                                                             (00:00.121 / 00:53.998, 277Mb)
+Generating Snapshots                                                                                 (00:00.022 / 00:54.021, 279Mb)
+
+Signing Certificate: RSA key for Subject: OU=IG Publisher, L=Ann Arbor, CN=hl7.org, O=HL7, ST=Missouri, C=us from: OU=IG Publisher, L=Ann Arbor, CN=hl7.org, O=HL7, ST=Missouri, C=us
+Fetch https://fhir-ig.digital.health.nz/wcto/package-list.json for version check                     (00:00.306 / 00:54.328, 285Mb)
+Checking Language                                                                                    (00:00.414 / 00:54.742, 289Mb)
+Load Dependency Info                                                                                 (00:00.001 / 00:54.743, 289Mb)
+Load Info                                                                                            (00:00.002 / 00:54.745, 289Mb)
+Load Paths                                                                                           (00:00.000 / 00:54.746, 290Mb)
+Check R4 / R4B                                                                                       (00:00.000 / 00:54.747, 290Mb)
+Assign Comparison Ids                                                                                (00:00.012 / 00:54.759, 292Mb)
+Propagating status                                                                                   (00:00.000 / 00:54.760, 292Mb)
+Generating Narratives                                                                                (00:00.000 / 00:54.760, 292Mb)
+Validating Conformance Resources                                                                     (00:00.107 / 00:54.868, 296Mb)
+Check profiles & code systems                                                                        (00:10.330 / 01:05.198, 352Mb)
+Check realm rules                                                                                    (00:00.001 / 01:05.199, 352Mb)
+Previous Version Comparison                                                                          (00:00.000 / 01:05.200, 352Mb)
+.. loaded. Process                                                                                   (00:00.000 / 01:05.200, 352Mb)
+finish previous version comparison                                                                   (00:00.000 / 01:05.201, 352Mb)
+finish ipa version                                                                                   (00:00.000 / 01:05.201, 352Mb)
+finish ips version                                                                                   (00:00.000 / 01:05.202, 352Mb)
+comparisons done                                                                                     (00:00.000 / 01:05.202, 352Mb)
+Checking for Bundles to sign                                                                         (00:00.008 / 01:05.211, 352Mb)
+Validating Resources                                                                                 (00:00.000 / 01:05.212, 352Mb)
+Processing Provenance Records                                                                        (00:00.001 / 01:05.214, 352Mb)
+Generating Translation artifacts                                                                     (00:00.001 / 01:05.215, 352Mb)
+Generating Outputs in C:\Users\spatel\Documents\FHIR\wcto\WCTO\output                                (00:00.005 / 01:05.221, 352Mb)
+Warning @ Unable to read the git branch: not a git repository (or any of the parent directories): .git
+Warning @ Unable to read the git source: not a git repository (or any of the parent directories): .git
+Generate Native Outputs                                                                              (00:02.759 / 01:07.980, 390Mb)
+Run Template                                                                                         (00:01.007 / 01:08.988, 489Mb)
+Generate HTML Outputs                                                                                (00:05.087 / 01:14.075, 289Mb)
+Generate Spreadsheets                                                                                (00:00.205 / 01:14.280, 310Mb)
+Generate Summaries                                                                                   (00:00.000 / 01:14.281, 310Mb)
+Generating Summary Outputs (en)                                                                      (00:00.000 / 01:14.282, 310Mb)
+DB Cumulative Time invested: 00:00:00.144
+Sending Usage Stats to Server                                                                        (00:23.345 / 01:37.627, 507Mb)
+## Memory (MB): Use = 507, Free = 92, Total = 600, Max = 3014                                        (00:00.006 / 01:37.633, 507Mb)
+Reclaiming memory...                                                                                 (00:00.000 / 01:37.634, 507Mb)
+Generating combined package                                                                          (00:00.005 / 01:37.639, 508Mb)
+Error generating combined package: C:\Users\spatel\Documents\FHIR\wcto\WCTO\output\package.tgz (The system cannot find the file specified) (00:00.004 / 01:37.644, 508Mb)
+## Memory (MB): Use = 255, Free = 344, Total = 600, Max = 3014                                       (00:00.111 / 01:37.755, 256Mb)
+Run jekyll: jekyll build --destination "C:\Users\spatel\Documents\FHIR\wcto\WCTO\output" (in folder C:\Users\spatel\Documents\FHIR\wcto\WCTO\temp\pages) (00:00.004 / 01:37.760, 256Mb)
+Due to a known issue, Jekyll errors are lost between Java and Ruby in windows systems.               (00:00.000 / 01:37.761, 256Mb)
+If the build process hangs at this point, you have to go to a                                        (00:00.000 / 01:37.761, 256Mb)
+command prompt, and then run these two commands:                                                     (00:00.000 / 01:37.762, 256Mb)
+                                                                                                     (00:00.000 / 01:37.762, 256Mb)
+cd C:\Users\spatel\Documents\FHIR\wcto\WCTO\temp\pages                                               (00:00.001 / 01:37.764, 256Mb)
+jekyll build --destination "C:\Users\spatel\Documents\FHIR\wcto\WCTO\output"                         (00:00.001 / 01:37.765, 256Mb)
+                                                                                                     (00:00.000 / 01:37.766, 256Mb)
+and then investigate why Jekyll has failed                                                           (00:00.000 / 01:37.767, 256Mb)
+Troubleshooting Note: usual cases for Jekyll to fail are:                                            (00:00.000 / 01:37.767, 256Mb)
+* A failure to produce a fragment that is already logged in the output above                         (00:00.000 / 01:37.768, 256Mb)
+* A reference to a manually edited file that hasn't been provided                                    (00:00.000 / 01:37.769, 256Mb)
+Jekyll: Source: C:/Users/spatel/Documents/FHIR/wcto/WCTO/temp/pages                                  (00:02.105 / 01:39.874, 260Mb)
+Jekyll: Generating...                                                                                (00:00.000 / 01:39.875, 260Mb)
+Jekyll: done in 4.086 seconds.                                                                       (00:04.084 / 01:43.960, 260Mb)
+[39m
+[0;39m[39mInstalling wcto.tewhatuora.govt.nz#dev
+[0;39m[39m done.
+[0;39m[39m loaded @ C:\Users\spatel\.fhir\packages\wcto.tewhatuora.govt.nz#dev
+[0;39mChecking Output HTML                                                                                 (00:02.347 / 01:46.308, 327Mb)
+AI format for C:\Users\spatel\Documents\FHIR\wcto\WCTO\output\en - % reduction = 81
+found 1155 files                                                                                     (00:00.353 / 01:46.662, 341Mb)
+.........................................
+.........................................
+  ... 1155 html files, 0 pages invalid xhtml (0%)                                                    (00:01.818 / 01:48.480, 477Mb)
+  ... 163 links, 0 broken links (0%)                                                                 (00:00.001 / 01:48.481, 477Mb)
+Generate fragment-usage-analysis.csv                                                                 (00:00.000 / 01:48.482, 477Mb)
+Build final .zip                                                                                     (00:00.008 / 01:48.491, 478Mb)
+Final .zip built                                                                                     (00:01.850 / 01:50.341, 491Mb)
+Built. Times: loading: 00:00.909, generate: 01:01.517, narrative generation: 00:00.106, validation: 00:10.328, realm-rules: 00:00.000, previous-version: 00:00.002, jekyll: 00:06.229, template: 00:05.148 (#3) (00:05.919 / 01:56.260, 395Mb)
+Generating QA                                                                                        (00:00.001 / 01:56.262, 395Mb)
+Validation output in C:\Users\spatel\Documents\FHIR\wcto\WCTO\output\qa.html
+Errors: 1, Warnings: 3, Info: 1, Broken Links: 0 (00:00.170 / 01:56.433, 402Mb)
+Finished @ 9/18/26, 3:40 PM. Max Memory Used = 508Mb. Log file saved in c:\temp\fhir-ig-publisher-tmp.log (00:00.027 / 01:56.460, 403Mb)
+Press any key to continue . . . 
