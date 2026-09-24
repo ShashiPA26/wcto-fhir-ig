@@ -1,3 +1,2 @@
 #!/bin/bash
-set -euo pipefail
-exec "$(dirname "$0")/_build.sh" watch "$@"
+./_genonce.sh -watch
